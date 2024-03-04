@@ -124,6 +124,7 @@ td {
     display : block;
     flex    : 1 1 0%;
     padding : 0 var(--gutter);
+    color   : #2b5454;
 }
 
 .collapse>.column,
@@ -244,14 +245,14 @@ a:active {
     font-size           : 2rem;
     font-weight         : 400;
     line-height         : calc(var(--space));
-    color               : var(--color-text-dark);
+    color               : #2b5454;
     padding             : 0 1.8rem;
     transition-property : color, background-color;
 }
 
 .s-header__nav a:focus,
 .s-header__nav a:hover {
-    color : hsla(203, 100%, 79%, 1);
+    color : #3fb7bf;
 }
 
 .s-header__nav ul {
@@ -326,13 +327,9 @@ a:active {
 .s-intro__text h3 {
     font-family    : var(--font-1);
     font-size      : var(--text-xxxl);
-    font-weight    : 400;
+    font-weight    : 300;
     margin-top     : 0;
-    color          : white;
-}
-
-.s-intro__text h3 span {
-    color : var(--color-2-light);
+    color          : #d7f7f7;
 }
 
 .s-intro__text-huge {
@@ -342,12 +339,11 @@ a:active {
     letter-spacing   : -0.015em;
     margin-top       : calc(var(--text-huge-size) / 2 * -1.2);
     margin-bottom    : calc(1.25 * var(--space));
-    color            : white;
+    color            : #3f7373;
 }
 .s-intro__bg {
     aspect-ratio        : 1/1;
     width               : 100%;
-    background-color    : var(--color-gray-4);
     background-image    : url(../images/ldbg.jpg);
     background-repeat   : no-repeat;
     background-position : center;
@@ -404,7 +400,7 @@ a:active {
 }
 
 .s-footer .link-list a:hover {
-    color : hsla(203, 100%, 79%, 1);
+    color : #3fb7bf;
 }
 
 .s-footer__contact-content .left-block {
